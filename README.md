@@ -4,5 +4,6 @@ Tracking my daily habits with a self-updating, GitHub-style heatmap — built wi
 
 ## Habits
 
-![gym heatmap](./gym_heatmap.png)
-![coding heatmap](./coding_heatmap.png)
+## Habit Tracking
+
+<img src="https://raw.githubusercontent.com/gyan-prakash-007/habit-tracker/main/habit_grid.png" alt="habit tracker grid" />
