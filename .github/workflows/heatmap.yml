@@ -22,6 +22,9 @@ jobs:
       - name: Install dependencies
         run: pip install matplotlib
 
+      - name: Show habits.json
+        run: cat habits.json
+
       - name: Generate grid
         run: python3 grid.py
 
@@ -32,4 +35,4 @@ jobs:
           git add *.png
           git diff --staged --quiet || git commit -m "Update habit grid"
           git pull --rebase origin main
-          git push
+          git push    
